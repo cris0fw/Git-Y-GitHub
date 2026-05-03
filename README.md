@@ -358,4 +358,28 @@ Con git clone basicamente descargamos un repositorio remoto recomendable la opci
 ```
 ---
 
+## Git push 
+
+---
+Esto es para subir un repositorio al repositorio remoto. Se nos va abrir una ventana de github vamos a configurar la de token 
+-Vamos a nuestro github, nuestra foto de perfil seting, luego a developer settings
+-personal access tokens
+-tokens (clasic), generamos un token, ponemos la contraseña del github una expiracion de 7 dias y luego el token que generamos lo pegamos en la ventana de git
+
+```bash
+     git push origin master
+```
+
+---
+
+## git pull y fetch
+
+---
+Git pull agarra cambios y los baja junto a nosotros
+
+```bash
+     git pull -u origin master
+```
+---
+
 
